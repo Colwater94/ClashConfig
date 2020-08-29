@@ -13,12 +13,13 @@ experimental:
 authentication:
   - "user1:pass1"
   - "user2:pass2"
+clash-for-android:
+  append-system-dns: true 
 dns:
   enable: true
   ipv6: true
   listen: 127.0.0.1:1053
   enhanced-mode: redir-host
-  append-system-dns: true  
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29

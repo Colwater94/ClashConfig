@@ -8,7 +8,7 @@ surge_ruleset=📼 PilPil,https://raw.githubusercontent.com/MessCode994/ClashCon
 surge_ruleset=📹 YT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 surge_ruleset=🌏 stream CN,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ChinaMedia.list
 surge_ruleset=🌍 stream,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-surge_ruleset=🚀 Proxy Choose,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+surge_ruleset=🌀 Proxy Choose,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 surge_ruleset=🎯 Global,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 surge_ruleset=🎯 Global,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=🎯 Global,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
@@ -18,16 +18,16 @@ surge_ruleset=🐟 Others,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🚀 Proxy Choose`select`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
-custom_proxy_group=🚀 Proxy`select`.*
-custom_proxy_group=📲 TG`select`[]🚀 Proxy Choose`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
-custom_proxy_group=📹 YT`select`[]🚀 Proxy Choose`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
-custom_proxy_group=📼 PilPil`select`[]DIRECT`[]🇨🇳 TW`[]🇭🇰 HK`[]🚀 Proxy Choose`[]🚀 Proxy
-custom_proxy_group=🌍 stream`select`[]🚀 Proxy Choose`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
-custom_proxy_group=🌏 stream CN`select`[]DIRECT`[]🇨🇳 China`[]🚀 Proxy Choose`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes
-custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🚀 Proxy Choose`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China
-custom_proxy_group=🎯 Global`select`[]DIRECT`[]🇨🇳 China`[]🚀 Proxy Choose`[]🚀 Proxy
-custom_proxy_group=🐟 Others`select`[]🚀 Proxy Choose`[]🚀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=🌀 Proxy Choose`select`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=🌀 Proxy`select`.*
+custom_proxy_group=📲 TG`select`[]🌀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=📹 YT`select`[]🌀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=📼 PilPil`select`[]DIRECT`[]🇨🇳 TW`[]🇭🇰 HK`[]🌀 Proxy Choose`[]🌀 Proxy
+custom_proxy_group=🌍 stream`select`[]🌀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=🌏 stream CN`select`[]DIRECT`[]🇨🇳 China`[]🌀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes
+custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🌀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China
+custom_proxy_group=🎯 Global`select`[]DIRECT`[]🇨🇳 China`[]🌀 Proxy Choose`[]🌀 Proxy
+custom_proxy_group=🐟 Others`select`[]🌀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
 custom_proxy_group=🇭🇰 HK`select`(港|HK|Hong Kong)`
 custom_proxy_group=🇨🇳 TW`select`(台|新北|彰化|TW|Taiwan)`
 custom_proxy_group=🇸🇬 SG`select`(新|新加坡|坡|狮城|SG|Singapore)`

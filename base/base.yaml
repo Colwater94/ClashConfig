@@ -22,7 +22,6 @@ dns:
   enhanced-mode: redir-host
   default-nameserver:
     - 1.2.4.8
-    - 114.114.114.114
     - 156.154.70.5
     - 156.154.71.5
     - 223.5.5.5
@@ -31,7 +30,6 @@ dns:
     - 1.1.1.1
   nameserver:
     - 1.2.4.8
-    - 114.114.114.114
     - 156.154.70.5
     - 156.154.71.5    
     - 223.5.5.5
@@ -39,6 +37,8 @@ dns:
     - 8.8.8.8
     - 1.1.1.1
   fallback:
+    - 156.154.70.5
+    - 156.154.71.5    
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
     - https://doh.pub/dns-query

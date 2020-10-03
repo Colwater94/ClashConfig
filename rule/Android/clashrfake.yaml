@@ -1,0 +1,46 @@
+;设置规则标志位
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/LocalAreaNetwork.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/UnBan.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/GoogleCN.list
+surge_ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/OneDrive.list
+surge_ruleset=📲 TG,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/Telegram.list
+surge_ruleset=📼 PilPil,https://raw.githubusercontent.com/MessCode994/ClashConfig/master/rule/bilibiliHMT.list
+surge_ruleset=📹 YT,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/Ruleset/YouTube.list
+surge_ruleset=🌏 stream CN,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ChinaMedia.list
+surge_ruleset=🌍 stream,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ProxyMedia.list
+surge_ruleset=🚀 Proxy Choose,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ProxyGFWlist.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ChinaIp.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ChinaDomain.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/ChinaCompanyIp.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/MessCode994/ACL4SSR/master/Clash/Download.list
+surge_ruleset=🎯 Global,https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt
+surge_ruleset=🐟 Others,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=🚀 Proxy Choose`select`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=🌀 Proxy`select`.*
+custom_proxy_group=📲 TG`select`[]🚀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=📹 YT`select`[]🚀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=📼 PilPil`select`[]DIRECT`[]🇨🇳 TW`[]🇭🇰 HK`[]🚀 Proxy Choose`[]🌀 Proxy
+custom_proxy_group=🌍 stream`select`[]🚀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=🌏 stream CN`select`[]DIRECT`[]🇨🇳 China`[]🚀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes
+custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🚀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China
+custom_proxy_group=🎯 Global`select`[]DIRECT`[]🇨🇳 China`[]🚀 Proxy Choose`[]🌀 Proxy
+custom_proxy_group=🐟 Others`select`[]🚀 Proxy Choose`[]🌀 Proxy`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇰🇷 KR`[]🇺🇲 US`[]🏳️‍🌈 Other nodes`[]🇨🇳 China`[]DIRECT
+custom_proxy_group=🇭🇰 HK`select`(港|HK|Hong Kong)`
+custom_proxy_group=🇨🇳 TW`select`(台|新北|彰化|TW|Taiwan)`
+custom_proxy_group=🇸🇬 SG`select`(新|新加坡|坡|狮城|SG|Singapore)`
+custom_proxy_group=🇯🇵 JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`
+custom_proxy_group=🇰🇷 KR`select`(韩国|韩|KR|Korea)`
+custom_proxy_group=🇺🇲 US`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`
+custom_proxy_group=🏳️‍🌈 Other nodes`select`(澳|澳门|MO|俄罗斯|俄|伯力|RU|阿根廷|AR|英国|英|伦敦|GB|德国|德|DE|澳大利亚|澳|AU|意大利|意|IT|欧洲|欧|泰国|泰|TH|印度|印|IN|土耳其|土|TR|巴西|巴|BR|越南|越|VN|南非|ZA|亚洲)`
+custom_proxy_group=🇨🇳 China`select`(回国|中国|China|CN|CHN)`
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+clash_rule_base=https://raw.githubusercontent.com/MessCode994/ClashConfig/master/base/base.ini
+
+;luck

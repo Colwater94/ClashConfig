@@ -28,14 +28,14 @@ custom_proxy_group=国内媒体`select`[]DIRECT`[] China`[]总模式`[]总节点
 custom_proxy_group=微软`select`[]DIRECT`[]总模式`[]总节点`[] HK`[] TW`[] SG`[] JP`[] KR`[] US`[]️‍ Other nodes`[] China
 custom_proxy_group=直连`select`[]DIRECT`[] China`[]总模式`[]总节点
 custom_proxy_group=其他`select`[]总模式`[]总节点`[] HK`[] TW`[] SG`[] JP`[] KR`[] US`[]️‍ Other nodes`[] China`[]DIRECT
-custom_proxy_group= HK`select`(港|HK|Hong Kong)`
-custom_proxy_group= TW`select`(台|新北|彰化|TW|Taiwan)`
-custom_proxy_group= SG`select`(新|新加坡|坡|狮城|SG|Singapore)`
-custom_proxy_group= JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`
-custom_proxy_group= KR`select`(韩国|韩|KR|Korea)`
-custom_proxy_group= US`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`
-custom_proxy_group=️‍ Other nodes`select`(澳|澳门|MO|俄罗斯|俄|伯力|RU|阿根廷|AR|英国|英|伦敦|GB|德国|德|DE|澳大利亚|澳|AU|意大利|意|IT|欧洲|欧|泰国|泰|TH|印度|印|IN|土耳其|土|TR|巴西|巴|BR|越南|越|VN|南非|ZA|亚洲)`
-custom_proxy_group= China`select`(回国|中国|China|CN|CHN)`
+custom_proxy_group=HK`select`(港|HK|Hong Kong)`
+custom_proxy_group=TW`select`(台|新北|彰化|TW|Taiwan)`
+custom_proxy_group=SG`select`(新|新加坡|坡|狮城|SG|Singapore)`
+custom_proxy_group=JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`
+custom_proxy_group=KR`select`(韩国|韩|KR|Korea)`
+custom_proxy_group=US`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`
+custom_proxy_group=️‍Other nodes`select`(澳|澳门|MO|俄罗斯|俄|伯力|RU|阿根廷|AR|英国|英|伦敦|GB|德国|德|DE|澳大利亚|澳|AU|意大利|意|IT|欧洲|欧|泰国|泰|TH|印度|印|IN|土耳其|土|TR|巴西|巴|BR|越南|越|VN|南非|ZA|亚洲)`
+custom_proxy_group=China`select`(回国|中国|China|CN|CHN)`
 ;设置分组标志位
 
 enable_rule_generator=true

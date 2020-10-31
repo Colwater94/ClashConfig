@@ -2,7 +2,7 @@
 surge_ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 surge_ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
-surge_ruleset=YTmusic,https://raw.githubusercontent.com/MessCode994/ClashConfig/master/rule/YT%20Music
+surge_ruleset=YTMusic,https://raw.githubusercontent.com/MessCode994/ClashConfig/master/rule/YT%20Music
 surge_ruleset=微软,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 surge_ruleset=电报,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 surge_ruleset=b站,https://raw.githubusercontent.com/MessCode994/ClashConfig/master/rule/bilibiliHMT.list

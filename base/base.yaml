@@ -20,34 +20,22 @@ dns:
   listen: 127.0.0.1:1053
   enhanced-mode: redir-host
   default-nameserver:
-    - 1.2.4.8
-    - 156.154.70.5
-    - 156.154.71.5
     - 223.5.5.5
     - 119.29.29.29
     - 8.8.8.8
     - 1.1.1.1
   nameserver:
-    - 1.2.4.8
     - 156.154.70.5
     - 156.154.71.5    
     - 223.5.5.5
     - 119.29.29.29
-    - 8.8.8.8
-    - 1.1.1.1
   fallback:
-    - 1.2.4.8
     - 156.154.70.5
     - 156.154.71.5    
     - 223.5.5.5
     - 119.29.29.29
     - 8.8.8.8
     - 1.1.1.1
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-    - https://doh.pub/dns-query
-    - https://223.5.5.5/dns-query
-    - https://dns.alidns.com/dns-query
   fallback-filter:
     geoip: false
     ipcidr:

@@ -2,6 +2,7 @@
 surge_ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 surge_ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 surge_ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+surge_ruleset=YT music,https://raw.githubusercontent.com/MessCode994/ClashConfig/master/rule/YT%20Music
 surge_ruleset=微软,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 surge_ruleset=电报,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 surge_ruleset=b站,https://raw.githubusercontent.com/MessCode994/ClashConfig/master/rule/bilibiliHMT.list
@@ -21,6 +22,7 @@ surge_ruleset=其他,[]FINAL
 custom_proxy_group=总模式`select`[]总节点`[]HK`[]TW`[]SG`[]JP`[]KR`[]US`[]️‍Other nodes`[]China`[]DIRECT
 custom_proxy_group=总节点`select`.*
 custom_proxy_group=电报`select`[]总模式`[]总节点`[]HK`[]TW`[]SG`[]JP`[]KR`[]US`[]️‍Other nodes`[]China`[]DIRECT
+custom_proxy_group=YT Music`select`[]总模式`[]总节点`[]HK`[]TW`[]SG`[]JP`[]KR`[]US`[]️‍Other nodes`[]China`[]DIRECT
 custom_proxy_group=油管`select`[]总模式`[]总节点`[]HK`[]TW`[]SG`[]JP`[]KR`[]US`[]️‍Other nodes`[]China`[]DIRECT
 custom_proxy_group=b站`select`[]DIRECT`[]TW`[]HK`[]总模式`[]总节点
 custom_proxy_group=国外媒体`select`[]总模式`[]总节点`[]HK`[]TW`[]SG`[]JP`[]KR`[]US`[]️‍Other nodes`[]China`[]DIRECT

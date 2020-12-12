@@ -20,7 +20,6 @@ dns:
   listen: 127.0.0.1:1053
   enhanced-mode: redir-host
   default-nameserver:
-    - https://doh.pub/dns-query
     - 223.5.5.5
     - 182.254.116.116
   nameserver:

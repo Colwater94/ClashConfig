@@ -23,11 +23,11 @@ dns:
     - 8.8.4.4
     - 1.0.0.1
   nameserver:
+    - https://dns.google/resolve
     - 8.8.4.4
-    - 1.0.0.1
   fallback:
+    - https://dns.google/resolve
     - 8.8.4.4
-    - 1.0.0.1
   fallback-filter:
     geoip: false
     ipcidr:

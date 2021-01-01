@@ -42,6 +42,6 @@ custom_proxy_group=China`select`(回国|中国|China|CN|CHN)`
 enable_rule_generator=true
 overwrite_original_rules=true
 
-clash_rule_base=https://raw.githubusercontent.com/MessCode994/ClashConfig/master/base/base.yaml
+clash_rule_base=https://raw.githubusercontent.com/MessCode994/ClashConfig/master/base/base.ini
 
 ;luck
